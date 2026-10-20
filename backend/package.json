@@ -1,0 +1,32 @@
+{
+  "name": "queue-cure-26-backend",
+  "version": "1.0.0",
+  "description": "Backend API and Socket.IO server for Queue Cure '26",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "queue",
+    "management",
+    "clinic",
+    "socket.io",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
+    "@supabase/supabase-js": "^2.43.4",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "socket.io-client": "^4.8.3"
+  }
+}
